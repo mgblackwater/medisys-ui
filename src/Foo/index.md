@@ -7,6 +7,7 @@ nav:
 ## Foo
 
 Demo:
+test
 
 ```tsx
 import React from 'react';
@@ -15,4 +16,11 @@ import { Foo } from 'medisys-ui';
 export default () => <Foo title="First Demo" />;
 ```
 
-More skills for writing demo: https://d.umijs.org/guide/demo-principle
+```tsx | inline
+import React from 'react';
+import { Foo } from 'medisys-ui';
+
+export default () => <Foo title="First Demo" />;
+```
+
+<code src="./index.tsx" a='1' title='123123' />
