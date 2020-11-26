@@ -1,4 +1,5 @@
 import { defineConfig } from 'dumi';
+import webpackPlugin from './plugin.config';
 
 export default defineConfig({
   title: 'medisys-ui',
@@ -10,5 +11,6 @@ export default defineConfig({
   mode: 'site',
   base: '/medisys-ui',
   publicPath: '/medisys-ui/',
+  chainWebpack: webpackPlugin,
   // more config: https://d.umijs.org/config
 });
