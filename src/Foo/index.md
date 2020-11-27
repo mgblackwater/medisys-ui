@@ -16,6 +16,13 @@ import { Foo } from 'medisys-ui';
 export default () => <Foo title="First Demo" />;
 ```
 
+```css
+body {
+  margin-right: 8px;
+  font: red;
+}
+```
+
 ```tsx | inline
 import React from 'react';
 import { Foo } from 'medisys-ui';

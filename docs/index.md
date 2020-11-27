@@ -1,5 +1,5 @@
 ---
-title: dumi - A Umi-based doc tool can assist you to develop libraries & write docs.
+title: Medisys UI - React components built on top of Antd Design and MATERIAL-UI
 order: 10
 hero:
   title: Medisys UI
