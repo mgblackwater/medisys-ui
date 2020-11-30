@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Input, Select } from 'antd';
 import { Form, Button } from 'medisys-ui';
-import './basic.less';
-console.log(Form);
+// import './basic.less';
+// console.log(Form);
 const { Option } = Select;
 
 const defaultFormConfig = {
@@ -48,6 +48,7 @@ const Demo = () => {
   console.log(form.isFieldsTouched());
   return (
     <>
+      <Item />
       {clear ? (
         <div>Form Removed</div>
       ) : (
