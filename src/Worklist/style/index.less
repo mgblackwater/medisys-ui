@@ -1,0 +1,28 @@
+@kanban-prefix-cls: 'kanban';
+
+.kanban {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px;
+  word-wrap: break-word;
+
+  &-board {
+    flex: 1;
+    min-width: 0;
+    flex-direction: row;
+    display: flex;
+    display: inline-flex;
+    overflow: auto;
+  }
+
+  &-column {
+    margin: 0.3em;
+    border-radius: 0.5em;
+  }
+
+  &-column-title {
+    font-size: x-large;
+    color: white;
+  }
+}
